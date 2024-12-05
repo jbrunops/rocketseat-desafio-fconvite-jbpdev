@@ -44,6 +44,76 @@
             <div class="input-wrapper">
               <label for="nome">Título</label>
               <input type="text" name="nome" id="nome" placeholder="Nome do Evento">
+
+              <!-- Div Error 1 -->
+               <div class="error">
+                <img src="/assets/icons/circle-alert.svg" alt="Erro!">
+                <span>Tem algoerrado!</span>
+               </div>
+            </div>
+            <!-- Fim da div Wrapper 1 -->
+
+            <!-- Grid 1 -->
+             <div class="grade">
+              <div class="input-data">
+                <label for="inicio">Início</label>
+                <input type="datetime-local" id="fim" name="fim">
+              </div>
+              <!-- Fim do input-data -->
+
+              <!-- Div Segmented Control -->
+              <div>
+                <label>Tipo</label>
+                <div class="radio">
+                  <!-- Radio 1 -->
+                  <div class="radio-select">
+                    <img src="/assets/icons/building-2.svg" alt="">
+                    <input
+                      type="radio"
+                      value="presen"
+                      name="locat"
+                      id="present"
+                    />
+                    <label for="present">Presencial</label>
+                  </div>
+
+                  <!-- Radio 2 -->
+                  <div class="radio-select">
+                    <img src="/assets/icons/video.svg" alt="">
+                    <input type="radio" value="onli" name="locat" id="online" />
+                    <label for="online">Online</label>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Input Wrapper 2 -->
+              <div class="input-wrapper">
+                <label for="locate">Local</label>
+                <input
+                  type="text"
+                  id="locate"
+                  name="locate"
+                  placeholder="Link ou endereço"
+                />
+                <div class="error">
+                  <img src="./assets/icons/circle-alert.svg" alt="alert" />
+                  <span>Error message</span>
+                </div>
+              </div>
+             </div>
+             <!-- Fim da Grid 1 -->
+
+             <!-- Textarea -->
+             <div>
+              <label for="descrip">Descrição</label>
+              <textarea
+                name="descript"
+                id="descript"
+                placeholder="Escreva sobre os detalhes do evento"
+                rows="10"
+                cols="20"
+              ></textarea>
             </div>
 
           </fieldset>
