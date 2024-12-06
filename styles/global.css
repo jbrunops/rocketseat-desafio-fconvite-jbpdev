@@ -185,7 +185,7 @@ main {
   }
 
   .flex {
-    max-width: 35rem;
+    /* max-width: 35rem; */
     display: flex;
     justify-content: space-around;
     gap: 0.75rem;
@@ -312,6 +312,10 @@ main {
   #fotocap {
     color: var(--text-body);
     font: 400 var(--body-sm);
+  }
+
+  .img-icon-up {
+    max-width: 1rem;
   }
 
   .docfile {
